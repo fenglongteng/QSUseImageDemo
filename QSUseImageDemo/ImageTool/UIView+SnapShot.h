@@ -10,4 +10,10 @@
 
 @interface UIView (SnapShot)
 
+/**
+ 获得View的截图
+ */
+- (UIImage *)snapShotImage;
+
+
 @end

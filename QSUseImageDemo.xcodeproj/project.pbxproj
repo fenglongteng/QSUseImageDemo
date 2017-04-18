@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883970F81EA45A4B00908C7F /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 883970F71EA45A4B00908C7F /* UIImage+Tool.m */; };
+		883970FB1EA465D800908C7F /* UIView+SnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 883970FA1EA465D800908C7F /* UIView+SnapShot.m */; };
+		883971231EA5A88F00908C7F /* icon_lena@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8839711F1EA5A88F00908C7F /* icon_lena@3x.png */; };
+		883971281EA5ABCB00908C7F /* image1_3.6MB_4032 × 3024.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 883971261EA5ABCB00908C7F /* image1_3.6MB_4032 × 3024.jpeg */; };
+		8839712C1EA5ACE500908C7F /* NSData+Length.m in Sources */ = {isa = PBXBuildFile; fileRef = 8839712B1EA5ACE500908C7F /* NSData+Length.m */; };
+		8839712E1EA5C03000908C7F /* icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8839712D1EA5C03000908C7F /* icon.jpeg */; };
 		88CFF2CC1E9C841C00B620A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF2CB1E9C841C00B620A2 /* main.m */; };
 		88CFF2CF1E9C841C00B620A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF2CE1E9C841C00B620A2 /* AppDelegate.m */; };
 		88CFF2D21E9C841C00B620A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF2D11E9C841C00B620A2 /* ViewController.m */; };
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		883970F61EA45A4B00908C7F /* UIImage+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
+		883970F71EA45A4B00908C7F /* UIImage+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
+		883970F91EA465D800908C7F /* UIView+SnapShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SnapShot.h"; sourceTree = "<group>"; };
+		883970FA1EA465D800908C7F /* UIView+SnapShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapShot.m"; sourceTree = "<group>"; };
+		8839711F1EA5A88F00908C7F /* icon_lena@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lena@3x.png"; sourceTree = "<group>"; };
+		883971261EA5ABCB00908C7F /* image1_3.6MB_4032 × 3024.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image1_3.6MB_4032 × 3024.jpeg"; sourceTree = "<group>"; };
+		8839712A1EA5ACE500908C7F /* NSData+Length.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Length.h"; sourceTree = "<group>"; };
+		8839712B1EA5ACE500908C7F /* NSData+Length.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Length.m"; sourceTree = "<group>"; };
+		8839712D1EA5C03000908C7F /* icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpeg; sourceTree = "<group>"; };
 		88CFF2C71E9C841C00B620A2 /* QSUseImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSUseImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CFF2CB1E9C841C00B620A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88CFF2CD1E9C841C00B620A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +93,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		883970F51EA45A3D00908C7F /* ImageTool */ = {
+			isa = PBXGroup;
+			children = (
+				883970F61EA45A4B00908C7F /* UIImage+Tool.h */,
+				883970F71EA45A4B00908C7F /* UIImage+Tool.m */,
+				883970F91EA465D800908C7F /* UIView+SnapShot.h */,
+				883970FA1EA465D800908C7F /* UIView+SnapShot.m */,
+				8839712A1EA5ACE500908C7F /* NSData+Length.h */,
+				8839712B1EA5ACE500908C7F /* NSData+Length.m */,
+			);
+			path = ImageTool;
+			sourceTree = "<group>";
+		};
+		8839711B1EA5A88F00908C7F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8839712D1EA5C03000908C7F /* icon.jpeg */,
+				883971261EA5ABCB00908C7F /* image1_3.6MB_4032 × 3024.jpeg */,
+				8839711F1EA5A88F00908C7F /* icon_lena@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		88CFF2BE1E9C841C00B620A2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +139,8 @@
 		88CFF2C91E9C841C00B620A2 /* QSUseImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8839711B1EA5A88F00908C7F /* Images */,
+				883970F51EA45A3D00908C7F /* ImageTool */,
 				88CFF2CD1E9C841C00B620A2 /* AppDelegate.h */,
 				88CFF2CE1E9C841C00B620A2 /* AppDelegate.m */,
 				88CFF2D01E9C841C00B620A2 /* ViewController.h */,
@@ -248,7 +288,10 @@
 			files = (
 				88CFF2DA1E9C841C00B620A2 /* LaunchScreen.storyboard in Resources */,
 				88CFF2D71E9C841C00B620A2 /* Assets.xcassets in Resources */,
+				8839712E1EA5C03000908C7F /* icon.jpeg in Resources */,
+				883971231EA5A88F00908C7F /* icon_lena@3x.png in Resources */,
 				88CFF2D51E9C841C00B620A2 /* Main.storyboard in Resources */,
+				883971281EA5ABCB00908C7F /* image1_3.6MB_4032 × 3024.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +318,10 @@
 			files = (
 				88CFF2D21E9C841C00B620A2 /* ViewController.m in Sources */,
 				88CFF2CF1E9C841C00B620A2 /* AppDelegate.m in Sources */,
+				883970FB1EA465D800908C7F /* UIView+SnapShot.m in Sources */,
 				88CFF2CC1E9C841C00B620A2 /* main.m in Sources */,
+				8839712C1EA5ACE500908C7F /* NSData+Length.m in Sources */,
+				883970F81EA45A4B00908C7F /* UIImage+Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +553,7 @@
 				88CFF2F61E9C841C00B620A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88CFF2F71E9C841C00B620A2 /* Build configuration list for PBXNativeTarget "QSUseImageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +562,7 @@
 				88CFF2F91E9C841C00B620A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88CFF2FA1E9C841C00B620A2 /* Build configuration list for PBXNativeTarget "QSUseImageDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +571,7 @@
 				88CFF2FC1E9C841C00B620A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
